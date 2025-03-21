@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/books/:id" => "books#show"
+  delete "/books/:id" => "books#destroy"
 end
